@@ -1,0 +1,128 @@
+/*
+                Personal Portfolio 
+                ver: 1.5
+*/
+
+body{
+    background-image:url(
+"https://media.wired.com/photos/5c6f46d93e8add2cdb917279/master/w_120");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+/* Top Contact--------------- */
+
+.email-link {
+    max-width: 100px;
+    max-height: 50px;
+    margin:auto
+    
+}
+
+.emailbtn {
+    height: 40px;
+    width: 13rem;  
+    border-radius: 8px;  
+    color: grey;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    background-color: blanchedalmond;
+    opacity: .2;
+}
+
+.emailbtn:hover{
+    opacity: .8;
+}
+
+/* NAVBAR!!! ----------------  */
+
+.navbar /* parent section */ {
+    border: 2px dotted;
+    margin: 0 18px;
+    min-height: 65px;
+    max-height: 85px;
+    min-width: 30px;
+    max-width: 135px;
+    position: fixed;
+    display: flex;
+    flex-direction: end;
+    color: aquamarine;
+    bottom: 0;
+    right: 0;
+}
+
+.socials {
+    min-height: 65px;
+    max-height: 85px;
+    min-width: 30px;
+    max-width: 45px;
+    border: 2px solid;
+}
+
+.projects {
+    min-height: 65px;
+    max-height: 85px;
+    min-width: 30px;
+    max-width: 45px;
+    border: 2px solid;
+}
+
+.resume {
+    min-height: 65px;
+    max-height: 85px;
+    min-width: 30px;
+    max-width: 45px;
+}
+
+/* ABOUT------------------------ */
+
+.selfie {
+    border: 1px;
+}
+
+.name {
+    border: 1px;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Marcellus', serif;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.about-div {
+    
+    height: 150px;
+    width: 300px;
+    padding-top: 50px;
+    
+    
+}
+
+.about {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Marcellus', serif;
+    font-weight: 200;
+    font-size: larger;
+    height: 120px;
+    
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+    .navbar {
+      display: inline;
+      margin: auto;
+    }
+  }
